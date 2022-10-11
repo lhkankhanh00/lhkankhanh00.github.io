@@ -1,3 +1,3 @@
-#[Page]
+Page :[Page]
 
-[Page] = lhkankhanh00.github.io
+[Page]: lhkankhanh00.github.io
