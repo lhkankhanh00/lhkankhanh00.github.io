@@ -1,34 +1,23 @@
-<!-- templatemo 379 catalog -->
-<!-- 
-Catalog Template 
-http://www.templatemo.com/preview/templatemo_379_catalog 
--->
 <!DOCTYPE html>
 <html>
 <head>		
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home Page</title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet" type="text/css">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link rel="icon" href="/images/page/logo.png" type="image/x-icon" />
-	<!-- Custom styles for this template -->
 	<link href="http://getbootstrap.com/examples/offcanvas/offcanvas.css" rel="stylesheet">
 	<link href="templatemo_style.css" rel="stylesheet" type="text/css">
-
-	<!-- HTML 5 shim for IE backwards compatibility -->
-		<!-- [if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-		</script>
-		<![endif]-->
 	</head>
 	<body>
 		<header>
 			<div class="container logo">
 				<div class="row">
-					<div class="col-md-12"><a href="#"><img src="" alt="logo-kidzone"></a></div>
+					<div class="col-md-12"><a href="#"><img src="/images/page/logo.png" alt="logo-kidzone"><h1 class="logo-name">Kid Zone</h1></a></div>
 				</div>
 			</div>
 			<nav class="navbar navbar-default" role="navigation"> 
@@ -109,10 +98,13 @@ http://www.templatemo.com/preview/templatemo_379_catalog
 								<div class="item_container">
                                 
 									<div class="item">
-										<a href="/animalworks.html" class="thumbnail">
+										<a href="/popup.html" class="thumbnail">
 											<img src="/images/animals/mammals/mammals1.jpg" alt="mammals">
 											<p>Mammals</p>
 										</a>
+										<!-- <div onclick="togglePopup()" class="items">
+											
+										</div> -->
 									</div>		          
 									<div class="item">
 										<a href="#" class="thumbnail">
@@ -344,7 +336,14 @@ http://www.templatemo.com/preview/templatemo_379_catalog
 					}
 				});
 			});
-
+			
 		</script>
+		<script type="text/javascript">
+      
+			// Function to show and hide the popup
+			function togglePopup() {
+				 $(".content").toggle();
+			}
+	  </script>
 	</body>
 </html>
