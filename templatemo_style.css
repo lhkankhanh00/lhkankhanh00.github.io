@@ -28,7 +28,8 @@ iframe, object, embed {	width: 100%; border: none; margin-bottom: 20px; }
 section.row{ margin-bottom: 20px; }
 ul.sidebar_menu { padding: 4px 0px; }
 
-.logo { padding-top: 15px; }
+.logo { padding-top: 15px;}
+.logo img{ width: 100px;}
 .container{ max-width: 980px; margin: 0 auto; background: #FDF5E3; }
 .thumbnail { display: inline-block;	-webkit-transition: none; transition: none; }
 
